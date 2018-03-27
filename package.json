@@ -7,9 +7,10 @@
     "url": "git+https://github.com/TEDxUMSA-2018/backend.git"
   },
   "dependencies": {
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "nodemon": "^1.17.2"
   },
   "scripts": {
-    "start": "node app.js"
+    "start": "nodemon app.js"
   }
 }
